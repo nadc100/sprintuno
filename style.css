@@ -1,0 +1,101 @@
+body{
+   background: url(/imagenes/fondo.jpg);
+   background-repeat: no-repeat;
+   background-size: cover; 
+     }
+
+#logo{
+   width: 27px;
+	height: 19px;
+   color:teal;
+ }
+
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 450;
+    text-decoration: none;
+ }
+
+ #navegador li{
+    display: inline;
+    text-align: center;
+    margin: 1px 20px 1px 1px;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+
+ 
+ #navegador li a {
+    color:dimgray;
+    text-decoration: none;
+ }
+
+
+ #navegador li a:hover{
+    background-color:aliceblue;
+    color:cadetblue;
+    text-decoration: none;
+ }
+
+.propiedades{
+   margin: auto;
+   padding: 10px;
+   display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+   text-align:justify;
+   width:60%;
+   font-family: 'Urbanist', sans-serif;
+   color: darkblue;
+}
+
+.propiedades div {
+   -webkit-flex: auto;
+	flex: auto;
+   margin: 1%;
+}
+
+.apartamentos{
+  float: left;
+  width: 7rem; 
+}
+
+.fincas{
+   float:center;
+   width: 7rem;
+}
+
+.casas{
+   float:right;
+   width: 7rem;
+}
+
+ 
+@media screen and (max-width: 600px) {
+   .propiedades{
+     width: 100%;
+   }
+ }
+
+ .responsive {
+   max-width: 100%;
+   height: auto;
+ }
+
+ .listaciudad{
+    text-decoration: none;
+ }
+
+ .footer {
+   border-radius: 3px;
+   margin: auto;
+   padding:1%;
+   width: 60%;
+   color:black;
+   text-align: center;
+   font-family: 'Urbanist', sans-serif;
+   font-size: 0.75rem;
+ }
