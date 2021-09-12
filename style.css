@@ -1,8 +1,8 @@
 body{
-   background: url(/imagenes/fondo.jpg);
+   background: url();
    background-repeat: no-repeat;
    background-size: cover; 
-     }
+   }
 
 #logo{
    width: 27px;
@@ -10,7 +10,7 @@ body{
    color:teal;
  }
 
-#navegador ul{
+nav ul{
     list-style-type: none;
     text-align: center;
     font-family: 'Urbanist', sans-serif;
@@ -18,7 +18,7 @@ body{
     text-decoration: none;
  }
 
- #navegador li{
+ nav li{
     display: inline;
     text-align: center;
     margin: 1px 20px 1px 1px;
@@ -27,13 +27,13 @@ body{
  }
 
  
- #navegador li a {
+ nav li a {
     color:dimgray;
     text-decoration: none;
  }
 
 
- #navegador li a:hover{
+ nav li a:hover{
     background-color:aliceblue;
     color:cadetblue;
     text-decoration: none;
@@ -74,6 +74,21 @@ body{
 }
 
  
+.listaciudad a {
+   text-decoration: none;
+   text-transform: none;
+}
+
+.listaciudad a:hover {
+   color:teal;
+   text-decoration: none;
+   text-transform: none;
+}
+
+.ciudad{
+   font-size: 14px;
+}
+
 @media screen and (max-width: 600px) {
    .propiedades{
      width: 100%;
@@ -89,7 +104,7 @@ body{
     text-decoration: none;
  }
 
- .footer {
+ footer {
    border-radius: 3px;
    margin: auto;
    padding:1%;
@@ -99,3 +114,16 @@ body{
    font-family: 'Urbanist', sans-serif;
    font-size: 0.75rem;
  }
+
+
+ button {
+   font-family: 'Urbanist', sans-serif;
+   font-size: 0.7rem;
+   border: 1px solid #2e518b;
+   padding: 10px;
+   background-color: #2e518b;
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+   border-radius: 50px;
+   }

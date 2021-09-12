@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="registro.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,31 +15,53 @@
 </head>
 
 <body>
-    
-    <div id="navegador">
-        <ul>
-            <li><a href="index.html"><link rel="icon" type="image/png" src="/imagenes/logo.png"/>Mobiliaria-IN</a></li>
-            <li><a href="propiedades.html">Propiedades</a></li>
-            <li><a href="agentes.html">Agentes</a></li>
-            <li><a href="donaciones.html">Donaciones</a></li>
-            <input type="search" name="busqueda" id="search">
-            <li><a href="login.html">Login</a></li>
-            <li><a href="registro.html">Registro</a></li>
-        </ul>
-    </div>
-    <div class="registro">
-
-            <h1>para hacer el registro</h1>
-            </div>
-        <div class="footer">
-            <p>Cel: 300 780 41 85</p>
-            <p>mobiliariain@gmail.com</p>
-            <p>Bogota | Medellín | Fresno</p>
-            <span></span>
-            <p>©2021 TEAM 797</p>
-            <p>Todos los derechos reservados</p>
-            <a href="contacto.html">Contactanos</a>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">
+                        <link rel="icon" type="image/png" src="imagenes/logo.png" />Mobiliaria-IN
+                    </a></li>
+                <li><a href="propiedades.html">Propiedades</a></li>
+                <li><a href="agentes.html">Agentes</a></li>
+                <li><a href="donaciones.html">Donaciones</a></li>
+                <input type="search" name="busqueda" id="search">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="registro.html">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="registro">
+            <form action="" method="POST" id="form">
+                <div class="form">
+                    <h1>Registro</h1>
+                    <div class="grupo">
+                        <input type="text" name="" id="name" required><span class="barra"></span>
+                        <label for="">Nombre</label>
+                    </div>
+                    <div class="grupo">
+                        <input type="email" name="" id="email" required><span class="barra"></span>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="grupo">
+                        <input type="password" name="" id="password" required><span class="barra"></span>
+                        <label for="">Password</label>
+                    </div>
+                    <button class="boton " type="submit">Suscribirte</button>
+                </div>
+            </form>
         </div>
+
+    </main>
+    <footer>
+        <p>Cel: 300 780 41 85</p>
+        <p>mobiliariain@gmail.com</p>
+        <p>Bogota | Medellín | Fresno</p>
+        <span></span>
+        <p>©2021 TEAM 797</p>
+        <p>Todos los derechos reservados</p>
+        <a href="contacto.html">Contactanos</a>
+    </footer>
 </body>
 
 </html>
