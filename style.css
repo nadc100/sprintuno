@@ -10,11 +10,16 @@ body{
    color:teal;
  }
 
+nav{
+   font-family: 'Urbanist', sans-serif;
+   color:#2e518b;
+   font-size: 20px;
+   text-decoration: none;
+}
+
 nav ul{
     list-style-type: none;
     text-align: center;
-    font-family: 'Urbanist', sans-serif;
-    font-weight: 450;
     text-decoration: none;
  }
 
@@ -28,7 +33,6 @@ nav ul{
 
  
  nav li a {
-    color:dimgray;
     text-decoration: none;
  }
 
