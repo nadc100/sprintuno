@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 60%;
+    margin: auto;
+    color:azure;
+}
+
+main{
+    width: 60%;
+    margin: auto;
+}
+
+nav{
+    display:flex;
+}
+
+nav li{
+    display:inline-flex;
+    text-align: center;
+    text-shadow: #222222;
+    font-size: 1.2em;
+    font-weight: 600;;
+    margin: 1px 40px 1px 1px;
+    padding: 14px 16px;
+ }
+
+ nav li a {
+    text-decoration: none;
+ }
+
+ nav li a:hover{
+    background-size: 50px;
+    text-shadow: 1px 1px 2px lightblue, 0 0 10px blue, 0 0 3px darkblue;
+ }
+
+ h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 3em;
+}
+
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+
+.logo-container__site-logo {
+    height: 80px;
+    margin-top:30px;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.banner img {
+    height : 100%;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.textobanner {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    color:white;
+    font-size:50px;
+    text-decoration:double;
+    font-stretch: 10px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+
+
+section{
+    padding: 5%;
+    text-align: justify;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+section img{
+        max-width: 100%;
+        max-height: 100%;
+}
+
+.news-section,
+.team-section,
+.services-section{
+background-color: whitesmoke;
+}
+
+footer{
+    height: 200px;
+    color:azure;
+    background-color: lightblue;
+    text-shadow: 2px 2px 5px navy;
+}
+
+.footer-section{
+    padding-top:3%;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.mitabla{
+    font-size: 14px;
+    text-align: left;
+}
+
+.decorador{
+    font-size:33px;
+    display: block;
+    margin-bottom: 1em;
+    padding: 2em;
+    background-color: lightblue;
+    border-radius: 4px;
+    color:antiquewhite;
+    text-shadow: 1px 1px 1px burlywood;
+}
