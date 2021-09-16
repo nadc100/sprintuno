@@ -1,3 +1,1 @@
-archivo creado en github
-ahora hago un cambio local en vscode
-otro cambio
+archivo en la rama principal tambien llamada main
