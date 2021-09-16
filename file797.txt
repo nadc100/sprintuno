@@ -1,3 +1,1 @@
-archivo creado en github
-ahora hago un cambio local en vscode
-otro cambio
+este archivo esta en la rama nadc
