@@ -146,32 +146,22 @@
 
    .agentes{
     font-family: 'Urbanist', sans-serif;
-    color:navy;
     width:60%;
     margin: auto;
     padding: 10px;
-    text-align:justify;
  }
 
- .agentes img{
-    width:auto;
-}
-
-.banage{
+.imagenbanner{
    position: relative;
-   width: auto;
+   width:100%;
    height: auto;  
 }
 
-.txtban {
+.txbanner{
    position: absolute;
-   top: 5px;
-   left: 20px;
-   color:white;
-   font-size:20px;
-   
-   font-stretch: 10px;
-   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+   top:100px;
+   color:gainsboro;
+   font-size: 15px;
  }
 
 .card_agente{
