@@ -1,154 +1,142 @@
-<<<<<<< HEAD
-body {
-    background: url();
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#logo {
+ #logo{
     width: 27px;
-    height: 19px;
-    color: teal;
-}
-
-nav ul {
-=======
-body{
-   background: url();
-   background-repeat: no-repeat;
-   background-size: cover; 
-   }
-
-#logo{
-   width: 27px;
-	height: 19px;
-   color:teal;
- }
-
-nav{
-   font-family: 'Urbanist', sans-serif;
-   color:#2e518b;
-   font-size: 20px;
-   text-decoration: none;
-}
-
-nav ul{
->>>>>>> 447fe20fc5ce0476d38a288bad95b7fe97bb03f9
-    list-style-type: none;
-    text-align: center;
-    text-decoration: none;
-}
-
-nav li {
-    display: inline;
-    text-align: center;
-    margin: 1px 20px 1px 1px;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav li a {
-    color: dimgray;
-=======
+     height: 19px;
+    color:teal;
+  }
  
- nav li a {
-
+ nav{
+    font-family: 'Urbanist', sans-serif;
+    color:#2e518b;
+    font-size: 20px;
     text-decoration: none;
-}
-
-nav li a:hover {
-    background-color: aliceblue;
-    color: cadetblue;
-    text-decoration: none;
-}
-
-.propiedades {
+ }
+ 
+ nav ul{
+     list-style-type: none;
+     text-align: center;
+     text-decoration: none;
+  }
+ 
+  nav li{
+     display: inline;
+     text-align: center;
+     margin: 1px 20px 1px 1px;
+     padding: 14px 16px;
+     text-decoration: none;
+  }
+ 
+  
+  nav li a {
+     text-decoration: none;
+  }
+ 
+ 
+  nav li a:hover{
+     background-color:aliceblue;
+     color:cadetblue;
+     text-decoration: none;
+  }
+ 
+ .propiedades{
     margin: auto;
     padding: 10px;
     display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    text-align: justify;
-    width: 60%;
+     display: flex;
+     -webkit-flex-direction: row;
+     flex-direction: row;
+    text-align:justify;
+    width:60%;
     font-family: 'Urbanist', sans-serif;
     color: darkblue;
-}
-
-.propiedades div {
+ }
+ 
+ .propiedades div {
     -webkit-flex: auto;
-    flex: auto;
+     flex: auto;
     margin: 1%;
-}
-
-.apartamentos {
-    float: left;
+ }
+ 
+ .apartamentos{
+   float: left;
+   width: 7rem; 
+ }
+ 
+ .fincas{
+    float:center;
     width: 7rem;
-}
-
-.fincas {
-    float: center;
+ }
+ 
+ .casas{
+    float:right;
     width: 7rem;
-}
-
-.casas {
-    float: right;
-    width: 7rem;
-}
-
-.listaciudad a {
+ }
+ 
+  
+ .listaciudad a {
     text-decoration: none;
     text-transform: none;
-}
-
-.listaciudad a:hover {
-    color: teal;
+ }
+ 
+ .listaciudad a:hover {
+    color:teal;
     text-decoration: none;
     text-transform: none;
-}
-
-.ciudad {
+ }
+ 
+ .ciudad{
     font-size: 14px;
-}
-
-@media screen and (max-width: 600px) {
-    .propiedades {
-        width: 100%;
+ }
+ 
+ @media screen and (max-width: 600px) {
+    .propiedades{
+      width: 100%;
     }
-}
-
-.responsive {
+  }
+ 
+  .responsive {
     max-width: 100%;
     height: auto;
-}
-
-.listaciudad {
+  }
+ 
+  .listaciudad{
+     text-decoration: none;
+  }
+ 
+  footer {
+    border-radius: 3px;
+    margin: auto;
+    padding:1%;
+    width: 60%;
+    color:black;
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 0.75rem;
+  }
+ 
+ 
+  button {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 0.7rem;
+    border: 1px solid #2e518b;
+    padding: 10px;
+    background-color: #2e518b;
+    color: white;
     text-decoration: none;
- }
+    text-transform: uppercase;
+    border-radius: 50px;
+    }
 
- footer {
-   border-radius: 3px;
-   margin: auto;
-   padding:1%;
-   width: 60%;
-   color:black;
-   text-align: center;
-   font-family: 'Urbanist', sans-serif;
-   font-size: 0.75rem;
- }
-
-
- button {
-   font-family: 'Urbanist', sans-serif;
-   font-size: 0.7rem;
-   border: 1px solid #2e518b;
-   padding: 10px;
-   background-color: #2e518b;
-   color: white;
-   text-decoration: none;
-   text-transform: uppercase;
-   border-radius: 50px;
-   }
+    .botonrojo{
+        font-family: 'Urbanist', sans-serif;
+        font-size: 0.7rem;
+        border: 1px solid #f50707;
+        padding: 10px;
+        background-color: #b80b5b;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-radius: 50px;
+        }
 
    .propi{
       margin: auto;
@@ -159,3 +147,32 @@ nav li a:hover {
       font-family: 'Urbanist', sans-serif;
       color: darkblue;
    }
+
+   .agentes{
+    font-family: 'Urbanist', sans-serif;
+    color:navy;
+    width:60%;
+    margin: auto;
+    padding: 10px;
+    text-align:justify;
+ }
+
+ .agentes img{
+    width:auto;
+}
+
+#banneragentes{
+   align-items:center;
+   margin: auto;
+   width:100%;
+}
+
+
+.card_agente{
+
+    display:flex;
+}
+
+.tarjeta{
+    padding-left: 3%;
+}
