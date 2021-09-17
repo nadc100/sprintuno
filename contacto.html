@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -11,17 +11,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;500&display=swap" rel="stylesheet">
     <title>MobiliariaIN</title>
+
+
+    <style>
+
+    </style>
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li>
-                    <a href="index.html">
+                <li><a href="index.html">
                         <link rel="icon" type="image/png" src="imagenes/logo.png" />Mobiliaria-IN
-                    </a>
-                </li>
+                    </a></li>
                 <li><a href="propiedades.html">Propiedades</a></li>
                 <li><a href="agentes.html">Agentes</a></li>
                 <li><a href="donaciones.html">Donaciones</a></li>
@@ -31,40 +34,65 @@
             </ul>
         </nav>
     </header>
-
     <main>
-        <div class="contacto">
-            <img id="marca" src="imagenes/logo.jpeg" alt="">
-            <hr>
-            <br><br><br>
-            <div id="info">
-                <h1>Contáctenos</h1>
-                <img id="contacto" src="imagenes/gods-creation-5271048_1920.png" alt="">
-                <div id="telefono"><img src="imagenes/llamada-telefonica.png" alt=""></div>
-                <div id="celular"><img src="imagenes/whatsapp.png" alt=""></div>
-                <div id="ubicacion"><img src="imagenes/marcador-de-posicion.png" alt=""></div>
-                <div id="correo"><img src="imagenes/arroba.png" alt=""></div>
+        <div class="mainbox">
+            <div class="banner">
+                <img class="imagenbanner" src="imagenes/call.jpg" alt="agentes inmobiliarios">
+                <div class="txbanner">
+                    <h1>Contactanos</h1>
+                    <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+                </div>
+  <div class="contact_form">
+    <div class="formulario">      
+          <form action="contact.js" method="post">       
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p>
+                  <label for="telefone" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>    
+              
+                <p>
+                  <label for="website" class="colocar_website">Sitio web
+                  </label>
+                    <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                </p>    
+              
+                <p>
+                  <label for="asunto" class="colocar_asunto">Asunto
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>    
+              
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                </p>                    
+              
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
 
-                <div id="tel">
-                    <p>2580965</p>
-                </div>
-                <div id="cel">
-                    <p>300 780 41 85</p>
-                </div>
-                <div id="ubi">
-                    <p>Bogota | Medellín | Fresno</p>
-                    <p>
-                    <div id="email">
-                        <p>mobiliariain@gmail.com</p>
-                    </div>
-                </div>
-                <br><br>
-            </div>
-            <hr>
-            <br><br>
-            <img id="call" src="imagenes/call.jpg" alt="">
-            <br>
-
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+          </form>
+    </div>  
+  </div>
     </main>
     <footer>
         <p>Cel: 300 780 41 85</p>
@@ -75,12 +103,6 @@
         <p>Todos los derechos reservados</p>
         <a href="contacto.html">Contactanos</a>
     </footer>
-
-
-
-    <hr>
-
-
 </body>
 
 </html>
