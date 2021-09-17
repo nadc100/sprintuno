@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background: url();
     background-repeat: no-repeat;
@@ -11,10 +12,30 @@ body {
 }
 
 nav ul {
+=======
+body{
+   background: url();
+   background-repeat: no-repeat;
+   background-size: cover; 
+   }
+
+#logo{
+   width: 27px;
+	height: 19px;
+   color:teal;
+ }
+
+nav{
+   font-family: 'Urbanist', sans-serif;
+   color:#2e518b;
+   font-size: 20px;
+   text-decoration: none;
+}
+
+nav ul{
+>>>>>>> 447fe20fc5ce0476d38a288bad95b7fe97bb03f9
     list-style-type: none;
     text-align: center;
-    font-family: 'Urbanist', sans-serif;
-    font-weight: 450;
     text-decoration: none;
 }
 
@@ -26,8 +47,13 @@ nav li {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 nav li a {
     color: dimgray;
+=======
+ 
+ nav li a {
+>>>>>>> 447fe20fc5ce0476d38a288bad95b7fe97bb03f9
     text-decoration: none;
 }
 
@@ -99,6 +125,7 @@ nav li a:hover {
 
 .listaciudad {
     text-decoration: none;
+<<<<<<< HEAD
 }
 
 footer {
@@ -239,3 +266,40 @@ h3 {
     margin-left: 25%;
     margin-top: -22;
 }
+=======
+ }
+
+ footer {
+   border-radius: 3px;
+   margin: auto;
+   padding:1%;
+   width: 60%;
+   color:black;
+   text-align: center;
+   font-family: 'Urbanist', sans-serif;
+   font-size: 0.75rem;
+ }
+
+
+ button {
+   font-family: 'Urbanist', sans-serif;
+   font-size: 0.7rem;
+   border: 1px solid #2e518b;
+   padding: 10px;
+   background-color: #2e518b;
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+   border-radius: 50px;
+   }
+
+   .propi{
+      margin: auto;
+      padding: 10px;
+      display:block;
+      text-align:justify;
+      width:60%;
+      font-family: 'Urbanist', sans-serif;
+      color: darkblue;
+   }
+>>>>>>> 447fe20fc5ce0476d38a288bad95b7fe97bb03f9
