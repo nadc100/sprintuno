@@ -128,21 +128,25 @@
 
    
    .propi{
-      margin: auto;
-      padding: 10px;
-      display:block;
-      text-align:justify;
       width:60%;
+      margin: auto;
+      text-align:justify;
       font-family: 'Urbanist', sans-serif;
       color: darkblue;
    }
 
-   .propi img{
+   .boxpropiedad{
+      display:flex;
+      align-items:flex-end;
+   }
+
+   .boxpropiedad img{
       display:row;
    }
 
    .infopropiedades{
-      display:flow-root;
+      padding:3%;
+      margin:3%;
    }
 
    .agentes{
@@ -152,7 +156,6 @@
     margin: auto;
     padding: 10px;
     text-align:justify;
-    border:solid 2px gold;
  }
 
  .agentes img{
