@@ -155,10 +155,12 @@
     margin: auto;
     padding: 10px;
     text-align:justify;
+    border:solid 2px gold;
  }
 
  .agentes img{
     width:auto;
+    border:solid 2px red;
 }
 
 #banneragentes{
@@ -167,12 +169,13 @@
    width:100%;
 }
 
-
 .card_agente{
-
+ border:solid 2px black;
     display:flex;
+    margin-bottom: 2%;
 }
 
 .tarjeta{
     padding-left: 3%;
+    border:dotted 2px green;
 }
