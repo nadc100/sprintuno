@@ -126,18 +126,7 @@
     border-radius: 50px;
     }
 
-    .botonrojo{
-        font-family: 'Urbanist', sans-serif;
-        font-size: 0.7rem;
-        border: 1px solid #f50707;
-        padding: 10px;
-        background-color: #b80b5b;
-        color: white;
-        text-decoration: none;
-        text-transform: uppercase;
-        border-radius: 50px;
-        }
-
+   
    .propi{
       margin: auto;
       padding: 10px;
@@ -146,6 +135,14 @@
       width:60%;
       font-family: 'Urbanist', sans-serif;
       color: darkblue;
+   }
+
+   .propi img{
+      display:row;
+   }
+
+   .infopropiedades{
+      display:flow-root;
    }
 
    .agentes{
