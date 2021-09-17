@@ -157,11 +157,22 @@
     width:auto;
 }
 
-#banneragentes{
-   align-items:center;
-   margin: auto;
-   width:100%;
+.banage{
+   position: relative;
+   width: auto;
+   height: auto;  
 }
+
+.txtban {
+   position: absolute;
+   top: 5px;
+   left: 20px;
+   color:white;
+   font-size:20px;
+   
+   font-stretch: 10px;
+   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+ }
 
 .card_agente{
     display:flex;
