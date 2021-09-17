@@ -47,13 +47,12 @@ nav li {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 nav li a {
     color: dimgray;
 =======
  
  nav li a {
->>>>>>> 447fe20fc5ce0476d38a288bad95b7fe97bb03f9
+
     text-decoration: none;
 }
 
@@ -125,148 +124,6 @@ nav li a:hover {
 
 .listaciudad {
     text-decoration: none;
-<<<<<<< HEAD
-}
-
-footer {
-    border-radius: 3px;
-    margin: auto;
-    padding: 1%;
-    width: 60%;
-    color: black;
-    text-align: center;
-    font-family: 'Urbanist', sans-serif;
-    font-size: 0.75rem;
-}
-
-button {
-    font-family: 'Urbanist', sans-serif;
-    font-size: 0.7rem;
-    border: 1px solid #2e518b;
-    padding: 10px;
-    background-color: #2e518b;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 50px;
-}
-
-#marca {
-    margin: auto;
-    width: 25%;
-}
-
-h1 {
-    margin-top: 5%;
-    font-size: 3rem;
-    margin-left: 10%;
-    color: darkblue;
-}
-
-#contacto {
-    width: 12%;
-    margin-right: 73%;
-    margin-top: 2%;
-}
-
-img {
-    margin: auto;
-    width: 5%;
-    display: block;
-}
-
-#telefono {
-    margin-top: -24%;
-    margin-right: 20%;
-}
-
-#celular {
-    margin-top: 5%;
-    margin-right: 20%;
-}
-
-#ubicacion {
-    margin-top: 5%;
-    margin-right: 20%;
-}
-
-#correo {
-    margin-top: 5%;
-    margin-right: 20%;
-}
-
-#tel {
-    margin-top: -31%;
-    margin-left: 45%;
-}
-
-#cel {
-    margin-top: 7%;
-    margin-left: 45%;
-}
-
-#ubi {
-    margin-top: 8%;
-    margin-left: 45%;
-}
-
-#email {
-    margin-top: 13%;
-}
-
-#info {
-    margin-left: 25%;
-}
-
-#call {
-    border: solid dimgray;
-    margin: center;
-    width: 50%;
-}
-
-#casa {
-    width: 100%;
-}
-
-#nuestros_A {
-    margin-top: 5%;
-    margin-left: 2%;
-    width: 30%;
-}
-
-h3 {
-    color: dimgray;
-    margin-top: -8%;
-    margin-left: 15%;
-}
-
-#info_A {
-    width: 60%;
-    margin-left: 35%;
-    margin-top: -7%;
-}
-
-#fotos_A {
-    width: 15%;
-    margin-left: 3%;
-}
-
-#logo {
-    width: 30%;
-    margin-left: 2%;
-    position: fixed;
-}
-
-#logoimg {
-    width: 80%;
-}
-
-#nombres {
-    position: absolute;
-    margin-left: 25%;
-    margin-top: -22;
-}
-=======
  }
 
  footer {
@@ -302,4 +159,3 @@ h3 {
       font-family: 'Urbanist', sans-serif;
       color: darkblue;
    }
->>>>>>> 447fe20fc5ce0476d38a288bad95b7fe97bb03f9
