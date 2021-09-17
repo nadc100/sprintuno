@@ -131,3 +131,13 @@ nav ul{
    text-transform: uppercase;
    border-radius: 50px;
    }
+
+   .propi{
+      margin: auto;
+      padding: 10px;
+      display:block;
+      text-align:justify;
+      width:60%;
+      font-family: 'Urbanist', sans-serif;
+      color: darkblue;
+   }
