@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -11,46 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;500&display=swap" rel="stylesheet">
     <title>MobiliariaIN</title>
-    <style>
-        .dropdown {
-            position: relative;
-            display: inline-block;
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-            padding: 12px 16px;
-            z-index: 1;
-        }
-
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-
-        #campo {
-            margin: 1px;
-            padding: 0%;
-            display: flex;
-            border: none;
-        }
-
-        #campo li {
-            list-style: none;
-            align-items: flex-start;
-        }
-
-        #campox {
-            border: none;
-            float: inline-end;
-            width: 60%;
-            margin: 2em;
-        }
-
-    </style>
 </head>
 
 <body>
@@ -70,46 +30,31 @@
         </nav>
     </header>
     <main class="mainbox">
-
         <div class="banner">
             <img class="imagenbanner" src="imagenes/bigbanner.png" alt="agentes inmobiliarios">
             <div class="txbanner">
-                
-                
-                <div class="dropdown">
-                    <h1>Contribuciones</h1>
-                    <div class="dropdown-content">
-                        <p>Gracias !</p>
-                    </div>
-                </div>
+                <h1>Recibimos su donación</h1>
             </div>
         </div>
-
-        <form>
-            <section>
-                <fieldset id="campo">
-                    <legend>Medio de pago</legend>
-                    <ul>
-                        <li><label for=""><input type="checkbox" name="" id="">PSE</label></li>
-                        <li><label for=""><input type="checkbox" name="" id="">Visa</label></li>
-                        <li><label for=""><input type="checkbox" name="" id="">MasterCard</label></li>
-                        <li><label for=""><input type="checkbox" name="" id="">Débito</label></li>
-                    </ul>
-                </fieldset>
-                <fieldset id="campox">
-                    <p><label for="">nombre</label></p>
-                    <input type="text" name="" id="">
-                    <p><label for="">apellido</label></p>
-                    <input type="text" name="" id="">
-                    <p><label for="">usuario</label></p>
-                    <input type="text" name="" id="">
-                    <p><label for="">email</label></p>
-                    <input type="text" name="" id="">
-                    <p><label for="">dirección</label></p>
-                    <input type="text" name="" id="">
-                </fieldset>
-        </form>
-        <button class="btn btn-2"><a href="https://vaki.co/es/" target="_blank">donar</a></button>
+        <section >
+            <form class="fordonar">
+                <h4>Medio de pago</h4>
+                <label for=""><input type="checkbox" name="" id="">PSE</label>
+                <label for=""><input type="checkbox" name="" id="">Visa</label>
+                <label for=""><input type="checkbox" name="" id="">MasterCard</label>
+                <label for=""><input type="checkbox" name="" id="">Débito</label>
+                <label for="">nombre</label>
+                <input type="text" name="nombre" id="name">
+                <label for="">apellido</label>
+                <input type="text" name="apellido" id="lastname">
+                <label for="">usuario</label>
+                <input type="text" name="usuario" id="user">
+                <label for="">email</label>
+                <input type="text" name="email" id="mail">
+                <label for="">dirección</label>
+                <input type="text" name="direccion" id="address">
+            </form>
+            <button class="btn btn-2"><a href="" target="_blank">donar</a></button>
         </section>
     </main>
     <footer>
