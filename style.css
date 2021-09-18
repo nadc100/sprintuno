@@ -113,25 +113,6 @@ body{
     font-size: 0.75rem;
   }
  
- 
-  button{
-   height: auto; 
-   padding-left: 5px;
-   padding-right: 5px;   
-   margin-bottom: 20px; 
-   margin-top: 10px;   
-   text-transform: none;
-   background-color: lightblue;
-   border-radius: 10px;  
-   width: 5em;
-   cursor: pointer;
- }
- 
- 
- button p{
-   color: #fff; 
- }
- 
  input{
    background-color: #fbfbfb; 
    width: 408px; 
@@ -220,8 +201,16 @@ body{
 .txbanner{
    position: absolute;
    top:100px;
-   color: lavender;
-   font-size: 15px;
+   color:lightcoral;
+   font-size: 25px;
+ }
+
+ .txbanner2{
+   position: absolute;
+   left: 25em;
+   top:100px;
+   color:lightcoral;
+   font-size: 25px;
  }
 
 .card_agente{
@@ -252,3 +241,60 @@ body{
    padding: 10px;
    width:60%;
  }
+
+
+button{
+   font-family: 'Urbanist', sans-serif;
+  border: none;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 20px 70px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+button:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Button 2 */
+.btn-2 {
+  background: #2ecc71;
+  color: #fff;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.btn-2:hover {
+  background:lightgreen;
+}
+
+.btn-2:active {
+  background: #27ae60;
+  top: 2px;
+}
+
+.btn-2:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
+}
