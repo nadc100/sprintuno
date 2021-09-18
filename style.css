@@ -35,6 +35,14 @@ body{
      background-color:aliceblue;
      text-decoration: none;
   }
+
+  
+.mainbox{
+   margin: auto;
+   padding: 10px;
+   width:60%;
+ }
+
  
  .propiedades{
    margin: auto;
@@ -180,50 +188,32 @@ body{
    width:100%;
    height: auto;  
    margin: auto;
+   position: relative;
 }
 
 .txbanner{
-   top:5rem;
+   top:10rem;
+   left:30rem;
    color:lightcoral;
    font-size:1rem;
+   position: absolute;      
  }
 
 
 .cardagente{
     display:flex;
     margin-bottom: 2%;
-    width: 5rem;
+    width:min-content;
 }
 
 .fotoagente{
-   width:auto;
-   height: auto;  
+   width:100%;  
 }
 
 .tarjeta{
     padding-left: 3%;
 }
 
-
-.donacion{
-   width: 60%;
-   display:row;
-   margin:auto;
-}
-
-.donacion label{
-   width: 15px;
-}
-
-.donacion input{
-   width: 150px;
-}
-
-.mainbox{
-   margin: auto;
-   padding: 10px;
-   width:60%;
- }
 
 
 button{
