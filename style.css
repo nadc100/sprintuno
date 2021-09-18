@@ -3,12 +3,16 @@ body{
    color:#280176;
 }
 
- 
  nav{
     font-size: 1rem;
     text-decoration: none;
  }
- 
+
+ nav img{
+   width: 2rem;
+   height: 2rem;
+}
+
  nav ul{
      list-style-type: none;
      text-align: center;
@@ -18,7 +22,7 @@ body{
   nav li{
      display: inline;
      margin:auto;
-     padding:1rem;
+     padding:0.75rem;
      text-decoration: none;
   }
  
@@ -63,7 +67,6 @@ body{
     float:right;
     width: 7rem;
  }
-
 
  .ciudad{
    font-size: 0.7rem;
